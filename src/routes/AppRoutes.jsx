@@ -40,6 +40,7 @@ import AppointmentDetails from "../pages/appointments/AppointmentDetails";
 import EditAppointment from "../pages/appointments/EditAppointment";
 import EditDepartment from "../pages/departments/EditDepartment";
 import DepartmentDetails from "../pages/departments/DepartmentDetails";
+import Register from "./pages/auth/Register";
 export default function AppRoutes() {
   return (
     <Routes>
@@ -344,6 +345,7 @@ export default function AppRoutes() {
     </ProtectedRoute>
   }
 />
+      <Route path="/register" element={<Register />} />
     </Routes>
   );
 }
