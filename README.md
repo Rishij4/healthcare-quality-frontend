@@ -1,16 +1,140 @@
-# React + Vite
+# 🏥 Healthcare Quality Inspection System - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React-based frontend for the Healthcare Quality Inspection & Root Cause Intelligence System.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://healthcare-quality-frontend.vercel.app
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Tech Stack
 
-## Expanding the ESLint configuration
+- React.js
+- Vite
+- Redux Toolkit
+- React Router DOM
+- Axios
+- React Hook Form
+- Tailwind CSS
+- React Hot Toast
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+# Features
+
+## Authentication
+
+- User Login
+- User Registration
+- JWT Authentication
+- Protected Routes
+
+---
+
+## Dashboard
+
+- Dashboard Overview
+- Analytics
+- Reports
+- Notifications
+
+---
+
+## Modules
+
+- Patients
+- Departments
+- Staff
+- Appointments
+- Inspections
+- Defects
+- CAPA
+- Roles
+- Permissions
+- Profile
+
+---
+
+# Folder Structure
+
+```
+src
+│
+├── api
+├── assets
+├── components
+├── hooks
+├── layouts
+├── pages
+├── redux
+├── routes
+├── services
+├── utils
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+# Installation
+
+```bash
+git clone https://github.com/Rishij4/healthcare-quality-frontend.git
+
+cd healthcare-quality-frontend
+
+npm install
+```
+
+Run
+
+```bash
+npm run dev
+```
+
+---
+
+# Environment Variables
+
+Create a `.env` file.
+
+```env
+VITE_API_URL=https://healthcare-quality-backend.onrender.com/api/v1
+```
+
+---
+
+# Build
+
+```bash
+npm run build
+```
+
+---
+
+# Deployment
+
+Hosted on **Vercel**
+
+---
+
+# Backend Repository
+
+https://github.com/Rishij4/healthcare-quality-backend
+
+---
+
+# Author
+
+**Rishikesh Jakkani**
+
+GitHub
+
+https://github.com/Rishij4
+
+---
+
+# License
+
+MIT License
