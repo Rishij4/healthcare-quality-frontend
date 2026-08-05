@@ -344,7 +344,6 @@ export default function AppRoutes() {
     </ProtectedRoute>
   }
 />
-      <Route path="/register" element={<Register />} />
     </Routes>
   );
 }
