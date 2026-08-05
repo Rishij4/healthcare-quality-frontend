@@ -1,7 +1,6 @@
 import { useForm } from "react-hook-form";
 
-import { useNavigate } from "react-router-dom";
-
+import { Link, useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 
 import { useDispatch } from "react-redux";
@@ -105,6 +104,16 @@ className="w-full bg-blue-700 text-white p-3 rounded"
 Login
 
 </button>
+  <p className="text-center mt-4 text-sm">
+  Don't have an account?
+
+  <Link
+    to="/register"
+    className="text-blue-700 font-semibold ml-1"
+  >
+    Register
+  </Link>
+</p>
 
 </form>
 
